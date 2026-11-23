@@ -16,3 +16,5 @@
 
 .ending-signature{clip-path:inset(83% 0 0 0);animation:ending-words 1s .85s cubic-bezier(.16,1,.3,1) both}
 .intro-controls{position:absolute;left:20px;right:20px;bottom:max(28px,env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}.intro-controls[hidden]{display:none}.intro-controls .primary{background:#fff;color:#A6258C;padding:13px 24px}.intro-continue{border:1px solid #ffffff88;border-radius:10px;padding:12px 18px;background:transparent;color:white;font-size:12px}
+
+.linked-slide{display:block;width:100%;aspect-ratio:16/9}.linked-slide a{cursor:pointer}.linked-slide a rect{fill:transparent;stroke:transparent;stroke-width:4;transition:fill .15s,stroke .15s}.linked-slide a:hover rect,.linked-slide a:focus rect{fill:#A6258C12;stroke:#A6258C}.profile-link-hint{text-align:center;color:var(--muted);font-size:12px;margin:8px 0}.full-presentation .profile-link-hint{margin:4px 0;font-size:11px}
